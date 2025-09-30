@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    width: 90%;
+}
+
+.card {
+    width: 18.75rem;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url(IMAGE/Celestial-Night.jpeg) center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.6);
+    transition: all .4s;
+}
+
+.card:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 15px 40px rgba(0,0,0,0.6);
+
+}
+
+.card-header {
+    margin-bottom: 2.5rem;
+}
+
+.card-header h3{
+    font-family: 'Josephin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2rem;
+    color: chocolate;
+    margin: 30px;
+    border-bottom: 1px groove #fff;
+    padding: 10px;
+}
+
+.card-header h1{
+    font-family: 'Montserrat' sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.card-header span{
+    font-size: 18px;
+}
+
+.card-header sup{
+    font-size: 35px;
+}
+
+.card-body{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-body li{
+    list-style: none;
+    font-family: 'josephin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.card-body i{
+    margin-right: 25px;
+}
+
+.card-body ul{
+    text-align: left;
+}
+
+.card-body .fa-check{
+    color: #0d683a;
+}
+.card-body .fa-times{
+    color: #911832;
+}
+
+.card-footer{
+    margin: 40px;
+}
+
+.card-footer button{
+    width: 120px;
+    background-color: chocolate;
+    border-radius: 50px;
+    padding: 10px;
+    border: 2px solid chocolate;
+    color: #ddd;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+@media(max-width: 1200px){
+    .container{
+        height: 100%;
+    }
+
+    .card-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin: 35px;
+    }
+}
