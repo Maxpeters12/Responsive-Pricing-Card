@@ -126,3 +126,10 @@
         margin: 35px;
     }
 }
+
+@media screen and (orientation: landscape) {
+    .container{
+        min-width: 600px;
+        height: 100vh;
+    }
+}
