@@ -25,14 +25,14 @@
     color: #fff;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.6);
+    box-shadow: 0px 7px 15px rgba(0,0,0,0.6);
     transition: all .4s;
     margin: 1rem;
 }
 
 .card:hover{
     transform: scale(1.03);
-    box-shadow: 0px 15px 40px rgba(0,0,0,0.6);
+    box-shadow: 0px 12px 30px rgba(0,0,0,0.6);
 
 }
 
